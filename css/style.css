@@ -31,6 +31,10 @@ body{
     color: #1B1B1B;
 }
 
+.header{
+    margin-bottom: 90px;
+}
+
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -58,4 +62,34 @@ body{
 .user-nav{
     display: flex;
     gap: 0 20px;
+}
+
+.top{
+    margin-bottom: 150px;
+}
+
+.top-slide__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-slide__content{
+    flex-basis: 183px;
+}
+
+.top-slide__title{
+
+}
+
+.top-slide__subtitle{
+
+}
+
+.top-slide__text{
+
+}
+
+.top-slide__btn{
+
 }
