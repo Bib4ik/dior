@@ -454,6 +454,27 @@ body{
     display: block;
 }
 
-.footer__social-item{
+.footer__item-list li{
+    padding-top: 10px;
+}
 
+.footer__social-list{
+    margin-left: 10px;
+    align-self: flex-end;
+    margin-right: 105px;
+}
+
+.footer__social-item + .footer__social-item{
+    margin-top: 20px;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 105px;
+}
+
+.footer__nav-list{
+    display: flex;
+    gap: 0 20px;
 }
